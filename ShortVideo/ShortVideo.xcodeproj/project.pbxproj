@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CA7751E82194800EFDE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7741E82194800EFDE49 /* main.m */; };
+		180CA7781E82194800EFDE49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7771E82194800EFDE49 /* AppDelegate.m */; };
+		180CA77B1E82194800EFDE49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA77A1E82194800EFDE49 /* ViewController.m */; };
+		180CA77E1E82194800EFDE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CA77C1E82194800EFDE49 /* Main.storyboard */; };
+		180CA7801E82194800EFDE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180CA77F1E82194800EFDE49 /* Assets.xcassets */; };
+		180CA7831E82194800EFDE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CA7811E82194800EFDE49 /* LaunchScreen.storyboard */; };
+		180CA78E1E82194800EFDE49 /* ShortVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA78D1E82194800EFDE49 /* ShortVideoTests.m */; };
+		180CA7991E82194800EFDE49 /* ShortVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7981E82194800EFDE49 /* ShortVideoUITests.m */; };
+		180CA7AD1E821AC000EFDE49 /* IDImagePickerCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7AC1E821AC000EFDE49 /* IDImagePickerCoordinator.m */; };
+		180CA7B31E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7B21E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.m */; };
+		180CA7B61E821AE900EFDE49 /* IDCaptureSessionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7B51E821AE900EFDE49 /* IDCaptureSessionCoordinator.m */; };
+		180CA7BB1E821B0200EFDE49 /* IDPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7B81E821B0200EFDE49 /* IDPermissionsManager.m */; };
+		180CA7BC1E821B0200EFDE49 /* IDFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7BA1E821B0200EFDE49 /* IDFileManager.m */; };
+		180CA7BF1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7BE1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.m */; };
+		180CA7C41E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7C11E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.m */; };
+		180CA7C51E821D2D00EFDE49 /* IDAssetWriterCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA7C31E821D2D00EFDE49 /* IDAssetWriterCoordinator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180CA78A1E82194800EFDE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CA7681E82194800EFDE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CA76F1E82194800EFDE49;
+			remoteInfo = ShortVideo;
+		};
+		180CA7951E82194800EFDE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CA7681E82194800EFDE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CA76F1E82194800EFDE49;
+			remoteInfo = ShortVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180CA7701E82194800EFDE49 /* ShortVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CA7741E82194800EFDE49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180CA7761E82194800EFDE49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180CA7771E82194800EFDE49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180CA7791E82194800EFDE49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180CA77A1E82194800EFDE49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180CA77D1E82194800EFDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180CA77F1E82194800EFDE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180CA7821E82194800EFDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180CA7841E82194800EFDE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CA7891E82194800EFDE49 /* ShortVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CA78D1E82194800EFDE49 /* ShortVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortVideoTests.m; sourceTree = "<group>"; };
+		180CA78F1E82194800EFDE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CA7941E82194800EFDE49 /* ShortVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CA7981E82194800EFDE49 /* ShortVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortVideoUITests.m; sourceTree = "<group>"; };
+		180CA79A1E82194800EFDE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CA7AB1E821AC000EFDE49 /* IDImagePickerCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDImagePickerCoordinator.h; sourceTree = "<group>"; };
+		180CA7AC1E821AC000EFDE49 /* IDImagePickerCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDImagePickerCoordinator.m; sourceTree = "<group>"; };
+		180CA7B11E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionMovieFileOutputCoordinator.h; sourceTree = "<group>"; };
+		180CA7B21E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionMovieFileOutputCoordinator.m; sourceTree = "<group>"; };
+		180CA7B41E821AE900EFDE49 /* IDCaptureSessionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionCoordinator.h; sourceTree = "<group>"; };
+		180CA7B51E821AE900EFDE49 /* IDCaptureSessionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionCoordinator.m; sourceTree = "<group>"; };
+		180CA7B71E821B0200EFDE49 /* IDPermissionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPermissionsManager.h; sourceTree = "<group>"; };
+		180CA7B81E821B0200EFDE49 /* IDPermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPermissionsManager.m; sourceTree = "<group>"; };
+		180CA7B91E821B0200EFDE49 /* IDFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFileManager.h; sourceTree = "<group>"; };
+		180CA7BA1E821B0200EFDE49 /* IDFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDFileManager.m; sourceTree = "<group>"; };
+		180CA7BD1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionPipelineViewController.h; sourceTree = "<group>"; };
+		180CA7BE1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionPipelineViewController.m; sourceTree = "<group>"; };
+		180CA7C01E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureSessionAssetWriterCoordinator.h; sourceTree = "<group>"; };
+		180CA7C11E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureSessionAssetWriterCoordinator.m; sourceTree = "<group>"; };
+		180CA7C21E821D2D00EFDE49 /* IDAssetWriterCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAssetWriterCoordinator.h; sourceTree = "<group>"; };
+		180CA7C31E821D2D00EFDE49 /* IDAssetWriterCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAssetWriterCoordinator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180CA76D1E82194800EFDE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7861E82194800EFDE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7911E82194800EFDE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180CA7671E82194800EFDE49 = {
+			isa = PBXGroup;
+			children = (
+				180CA7721E82194800EFDE49 /* ShortVideo */,
+				180CA78C1E82194800EFDE49 /* ShortVideoTests */,
+				180CA7971E82194800EFDE49 /* ShortVideoUITests */,
+				180CA7711E82194800EFDE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180CA7711E82194800EFDE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7701E82194800EFDE49 /* ShortVideo.app */,
+				180CA7891E82194800EFDE49 /* ShortVideoTests.xctest */,
+				180CA7941E82194800EFDE49 /* ShortVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180CA7721E82194800EFDE49 /* ShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7A61E821A0100EFDE49 /* ShortVideoVendor */,
+				180CA7761E82194800EFDE49 /* AppDelegate.h */,
+				180CA7771E82194800EFDE49 /* AppDelegate.m */,
+				180CA7791E82194800EFDE49 /* ViewController.h */,
+				180CA77A1E82194800EFDE49 /* ViewController.m */,
+				180CA7BD1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.h */,
+				180CA7BE1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.m */,
+				180CA77C1E82194800EFDE49 /* Main.storyboard */,
+				180CA77F1E82194800EFDE49 /* Assets.xcassets */,
+				180CA7811E82194800EFDE49 /* LaunchScreen.storyboard */,
+				180CA7841E82194800EFDE49 /* Info.plist */,
+				180CA7731E82194800EFDE49 /* Supporting Files */,
+			);
+			path = ShortVideo;
+			sourceTree = "<group>";
+		};
+		180CA7731E82194800EFDE49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7741E82194800EFDE49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180CA78C1E82194800EFDE49 /* ShortVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				180CA78D1E82194800EFDE49 /* ShortVideoTests.m */,
+				180CA78F1E82194800EFDE49 /* Info.plist */,
+			);
+			path = ShortVideoTests;
+			sourceTree = "<group>";
+		};
+		180CA7971E82194800EFDE49 /* ShortVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7981E82194800EFDE49 /* ShortVideoUITests.m */,
+				180CA79A1E82194800EFDE49 /* Info.plist */,
+			);
+			path = ShortVideoUITests;
+			sourceTree = "<group>";
+		};
+		180CA7A61E821A0100EFDE49 /* ShortVideoVendor */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7B41E821AE900EFDE49 /* IDCaptureSessionCoordinator.h */,
+				180CA7B51E821AE900EFDE49 /* IDCaptureSessionCoordinator.m */,
+				180CA7A71E821AB500EFDE49 /* AVAssetWriter */,
+				180CA7A81E821AB500EFDE49 /* AVMovieFileOutput */,
+				180CA7A91E821AB500EFDE49 /* UIImagePickerController */,
+				180CA7AA1E821AB500EFDE49 /* Utilities */,
+			);
+			path = ShortVideoVendor;
+			sourceTree = "<group>";
+		};
+		180CA7A71E821AB500EFDE49 /* AVAssetWriter */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7C01E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.h */,
+				180CA7C11E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.m */,
+				180CA7C21E821D2D00EFDE49 /* IDAssetWriterCoordinator.h */,
+				180CA7C31E821D2D00EFDE49 /* IDAssetWriterCoordinator.m */,
+			);
+			path = AVAssetWriter;
+			sourceTree = "<group>";
+		};
+		180CA7A81E821AB500EFDE49 /* AVMovieFileOutput */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7B11E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.h */,
+				180CA7B21E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.m */,
+			);
+			path = AVMovieFileOutput;
+			sourceTree = "<group>";
+		};
+		180CA7A91E821AB500EFDE49 /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7AB1E821AC000EFDE49 /* IDImagePickerCoordinator.h */,
+				180CA7AC1E821AC000EFDE49 /* IDImagePickerCoordinator.m */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
+		180CA7AA1E821AB500EFDE49 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				180CA7B71E821B0200EFDE49 /* IDPermissionsManager.h */,
+				180CA7B81E821B0200EFDE49 /* IDPermissionsManager.m */,
+				180CA7B91E821B0200EFDE49 /* IDFileManager.h */,
+				180CA7BA1E821B0200EFDE49 /* IDFileManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180CA76F1E82194800EFDE49 /* ShortVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CA79D1E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideo" */;
+			buildPhases = (
+				180CA76C1E82194800EFDE49 /* Sources */,
+				180CA76D1E82194800EFDE49 /* Frameworks */,
+				180CA76E1E82194800EFDE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortVideo;
+			productName = ShortVideo;
+			productReference = 180CA7701E82194800EFDE49 /* ShortVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180CA7881E82194800EFDE49 /* ShortVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CA7A01E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideoTests" */;
+			buildPhases = (
+				180CA7851E82194800EFDE49 /* Sources */,
+				180CA7861E82194800EFDE49 /* Frameworks */,
+				180CA7871E82194800EFDE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CA78B1E82194800EFDE49 /* PBXTargetDependency */,
+			);
+			name = ShortVideoTests;
+			productName = ShortVideoTests;
+			productReference = 180CA7891E82194800EFDE49 /* ShortVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180CA7931E82194800EFDE49 /* ShortVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CA7A31E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideoUITests" */;
+			buildPhases = (
+				180CA7901E82194800EFDE49 /* Sources */,
+				180CA7911E82194800EFDE49 /* Frameworks */,
+				180CA7921E82194800EFDE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CA7961E82194800EFDE49 /* PBXTargetDependency */,
+			);
+			name = ShortVideoUITests;
+			productName = ShortVideoUITests;
+			productReference = 180CA7941E82194800EFDE49 /* ShortVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180CA7681E82194800EFDE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chenxianghong;
+				TargetAttributes = {
+					180CA76F1E82194800EFDE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5V85G7GVG3;
+						ProvisioningStyle = Manual;
+					};
+					180CA7881E82194800EFDE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180CA76F1E82194800EFDE49;
+					};
+					180CA7931E82194800EFDE49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180CA76F1E82194800EFDE49;
+					};
+				};
+			};
+			buildConfigurationList = 180CA76B1E82194800EFDE49 /* Build configuration list for PBXProject "ShortVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180CA7671E82194800EFDE49;
+			productRefGroup = 180CA7711E82194800EFDE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180CA76F1E82194800EFDE49 /* ShortVideo */,
+				180CA7881E82194800EFDE49 /* ShortVideoTests */,
+				180CA7931E82194800EFDE49 /* ShortVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180CA76E1E82194800EFDE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CA7831E82194800EFDE49 /* LaunchScreen.storyboard in Resources */,
+				180CA7801E82194800EFDE49 /* Assets.xcassets in Resources */,
+				180CA77E1E82194800EFDE49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7871E82194800EFDE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7921E82194800EFDE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180CA76C1E82194800EFDE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CA77B1E82194800EFDE49 /* ViewController.m in Sources */,
+				180CA7B61E821AE900EFDE49 /* IDCaptureSessionCoordinator.m in Sources */,
+				180CA7781E82194800EFDE49 /* AppDelegate.m in Sources */,
+				180CA7B31E821AD600EFDE49 /* IDCaptureSessionMovieFileOutputCoordinator.m in Sources */,
+				180CA7BC1E821B0200EFDE49 /* IDFileManager.m in Sources */,
+				180CA7C51E821D2D00EFDE49 /* IDAssetWriterCoordinator.m in Sources */,
+				180CA7BB1E821B0200EFDE49 /* IDPermissionsManager.m in Sources */,
+				180CA7751E82194800EFDE49 /* main.m in Sources */,
+				180CA7AD1E821AC000EFDE49 /* IDImagePickerCoordinator.m in Sources */,
+				180CA7BF1E821B6100EFDE49 /* IDCaptureSessionPipelineViewController.m in Sources */,
+				180CA7C41E821D2D00EFDE49 /* IDCaptureSessionAssetWriterCoordinator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7851E82194800EFDE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CA78E1E82194800EFDE49 /* ShortVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CA7901E82194800EFDE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CA7991E82194800EFDE49 /* ShortVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180CA78B1E82194800EFDE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CA76F1E82194800EFDE49 /* ShortVideo */;
+			targetProxy = 180CA78A1E82194800EFDE49 /* PBXContainerItemProxy */;
+		};
+		180CA7961E82194800EFDE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CA76F1E82194800EFDE49 /* ShortVideo */;
+			targetProxy = 180CA7951E82194800EFDE49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180CA77C1E82194800EFDE49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CA77D1E82194800EFDE49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180CA7811E82194800EFDE49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CA7821E82194800EFDE49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180CA79B1E82194800EFDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180CA79C1E82194800EFDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180CA79E1E82194800EFDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				DEVELOPMENT_TEAM = 5V85G7GVG3;
+				INFOPLIST_FILE = ShortVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengYunDiYin.YunDiPianoTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea600540-75b6-4d70-8093-d46f6eb048df";
+				PROVISIONING_PROFILE_SPECIFIER = 2017_2_20_Teacher_Dev;
+			};
+			name = Debug;
+		};
+		180CA79F1E82194800EFDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qi Chen (M5L243BGG3)";
+				DEVELOPMENT_TEAM = 5V85G7GVG3;
+				INFOPLIST_FILE = ShortVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FengYunDiYin.YunDiPianoTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea600540-75b6-4d70-8093-d46f6eb048df";
+				PROVISIONING_PROFILE_SPECIFIER = 2017_2_20_Teacher_Dev;
+			};
+			name = Release;
+		};
+		180CA7A11E82194800EFDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShortVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.ShortVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortVideo.app/ShortVideo";
+			};
+			name = Debug;
+		};
+		180CA7A21E82194800EFDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShortVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.ShortVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortVideo.app/ShortVideo";
+			};
+			name = Release;
+		};
+		180CA7A41E82194800EFDE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShortVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.ShortVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShortVideo;
+			};
+			name = Debug;
+		};
+		180CA7A51E82194800EFDE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShortVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.ShortVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShortVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180CA76B1E82194800EFDE49 /* Build configuration list for PBXProject "ShortVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CA79B1E82194800EFDE49 /* Debug */,
+				180CA79C1E82194800EFDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CA79D1E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CA79E1E82194800EFDE49 /* Debug */,
+				180CA79F1E82194800EFDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180CA7A01E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CA7A11E82194800EFDE49 /* Debug */,
+				180CA7A21E82194800EFDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180CA7A31E82194800EFDE49 /* Build configuration list for PBXNativeTarget "ShortVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CA7A41E82194800EFDE49 /* Debug */,
+				180CA7A51E82194800EFDE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180CA7681E82194800EFDE49 /* Project object */;
+}
